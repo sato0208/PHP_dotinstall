@@ -9,7 +9,7 @@
 ?>
 
 <form action="result.php" method="get">
-  <input type="text" name="message">
+  <textarea name="message"></textarea>
   <button>Send</button>
 </form>
 
