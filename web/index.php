@@ -9,11 +9,9 @@
 ?>
 
 <form action="result.php" method="get">
-  <select name="colors[]" multiple>
-    <option value="orange">Orange</option>
-    <option value="pink">Pink</option>
-    <option value="gold">Gold</option>
-  </select>
+  <label><input type="checkbox" name="colors[]" value="orange"> Orange</nput></label>
+  <label><input type="checkbox" name="colors[]" value="pink"> Pink</nput></label>
+  <label><input type="checkbox" name="colors[]" value="gold"> Gold</nput></label>
   <button>Send</button>
 </form>
 
