@@ -6,6 +6,6 @@
     </head>
     <body>
       <p>Hello, PHP!</p>
-      <p>Today: <?php echo date('Y-m-d H:i:s l'); ?></p>
+      <p>Today: <?php echo date('Y-m-d H:i:s'); ?></p>
     </body>
   </thml>
